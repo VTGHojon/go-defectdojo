@@ -23,6 +23,7 @@ type Client struct {
 	Engagements      *EngagementsService
 	Findings         *FindingsService
 	ImportScan       *ImportScanService
+	ReImportScan     *ReImportScanService
 	Notes            *NotesService
 	ProductTypes     *ProductTypesService
 	Products         *ProductsService
